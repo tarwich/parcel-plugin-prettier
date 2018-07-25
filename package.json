@@ -1,0 +1,19 @@
+{
+  "name": "parcel-plugin-prettier",
+  "version": "1.0.0",
+  "description": "Parecel plugin to run prettier on all .scss and .ts and .tsx files",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarwich/parcel-plugin-prettier.git"
+  },
+  "keywords": [],
+  "author": "Samuel Dillow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarwich/parcel-plugin-prettier/issues"
+  },
+  "homepage": "https://github.com/tarwich/parcel-plugin-prettier#readme"
+}
