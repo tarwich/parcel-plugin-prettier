@@ -6,7 +6,7 @@ const prettifyFile = filepath => {
   const newCode = format(code, {
     filepath,
     singleQuote: true,
-    trailingComma: true,
+    trailingComma: 'all',
   });
 
   if (newCode !== code) writeFileSync(filepath, newCode);
