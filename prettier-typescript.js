@@ -1,4 +1,4 @@
-const TypeScriptAsset = require('parcel/src/assets/TypeScriptAsset');
+const TypeScriptAsset = require('parcel-bundler/src/assets/TypeScriptAsset');
 const { prettifyFile } = require('./prettify')
 
 class PrettierAsset extends TypeScriptAsset {

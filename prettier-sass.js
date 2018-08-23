@@ -1,4 +1,4 @@
-const SASSAsset = require('parcel/src/assets/SASSAsset');
+const SASSAsset = require('parcel-bundler/src/assets/SASSAsset');
 const { prettifyFile } = require('./prettify')
 
 class PrettierAsset extends SASSAsset {
