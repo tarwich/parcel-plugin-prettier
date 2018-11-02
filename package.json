@@ -17,8 +17,5 @@
   "homepage": "https://github.com/tarwich/parcel-plugin-prettier#readme",
   "dependencies": {
     "prettier": "1.13.7"
-  },
-  "devDependencies": {
-    "parcel-bundler": "1.10.3"
   }
 }
