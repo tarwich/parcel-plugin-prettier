@@ -4,6 +4,7 @@ const { prettifyFile } = require('./prettify')
 class PrettierAsset extends TypeScriptAsset {
   constructor(...rest) {
     super(...rest);
+
     prettifyFile(this.name);
   }
 }
