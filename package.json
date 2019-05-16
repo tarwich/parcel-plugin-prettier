@@ -15,10 +15,13 @@
     "url": "https://github.com/tarwich/parcel-plugin-prettier/issues"
   },
   "homepage": "https://github.com/tarwich/parcel-plugin-prettier#readme",
-  "dependencies": {
-    "prettier": "1.13.7"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "1.11.0"
+    "parcel-bundler": "1.12.3",
+    "prettier": "1.17.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }

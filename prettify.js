@@ -18,5 +18,5 @@ const prettifyFile = filepath => {
 };
 
 module.exports = {
-  prettifyFile
+  prettifyFile,
 };
